@@ -1,0 +1,41 @@
+{
+  "info": {
+    "description": "FDDB in COCO Format",
+    "url": "http://vis-www.cs.umass.edu/fddb/",
+    "version": "1.0",
+    "year": 2020,
+    "contributor": "https://github.com/edwardpwtsoi",
+    "date_created": "2020/03/06"
+  },
+  "licenses": [
+    {
+        "url": "http://vis-www.cs.umass.edu/fddb/",
+        "id": 1,
+        "name": "FDDB: A Benchmark for Face Detection in Unconstrained Settings."
+    }
+  ],
+  "images": [
+    {
+        "license": 1,
+        "file_name": "000000397133.jpg",
+        "height": 427,
+        "width": 640,
+        "date_captured": "2013-11-14 17:02:52",
+        "id": 397133
+    }
+  ],
+  "categories": [
+    {"supercategory": "person","id": 1,"name": "face"}
+  ],
+  "annotations": [
+    {
+        "segmentation": [[510.66,423.01,511.72,420.03,510.45,423.01]],
+        "area": 702.1057499999998,
+        "iscrowd": 0,
+        "image_id": 289343,
+        "bbox": [473.07,395.93,38.65,28.67],
+        "category_id": 18,
+        "id": 1768
+    }
+  ]
+}
